@@ -5,3 +5,4 @@
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12 
 Invoke-WebRequest "Raw-download-link-of-the-file" -OutFile "Destination-Path-of-the-File"
 ```
+Source: [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team)
