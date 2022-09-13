@@ -1,0 +1,2 @@
+﻿$xml = [System.IO.File]::ReadAllText("C:\temp\WMI.xml")
+Invoke-CimMethod -ClassName PS_ScheduledTask -NameSpace "Root\Microsoft\Windows\TaskScheduler" -MethodName "RegisterByXml" -Arguments @{ Force = $true; Xml =$xml; }

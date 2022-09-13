@@ -1,0 +1,2 @@
+﻿[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12 
+Invoke-WebRequest "https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1071.004/src/T1071-dns-domain-length.ps1" -OutFile "C:\temp\T1071-dns-domain-length.ps1"
